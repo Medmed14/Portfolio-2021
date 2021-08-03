@@ -72,29 +72,49 @@ section{
     color:black;
 }
 
-.listComp{
+.list-comp{
     list-style: none;
 }
 
-.listComp li{
+.list-comp li{
     margin-bottom:0.7rem;
 }
 
-#illustrationMorph {
+#illustration-morph {
     border-radius: 3rem;
 }
 
 /* separation line */
-#rounded {
+#separator {
 
     background-color: rgb(215,215,215);
     height: 0.5rem;
     width: 100%;
   }
 
+  #separator-articles {
+
+    background-color: rgb(215,215,215);
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    height: 0.3rem;
+    width: 100%;
+  }
 
 /* //////////////////////////////////////////////////////////// */
 /* Book section */
+
+#title-book {
+    margin-top: 3rem;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    
+}
+
+.title-section {
+    margin-top:1rem;
+    text-align: center;
+}
 
 #book {
     color: rgb(215, 215, 215);
@@ -105,22 +125,25 @@ section{
 
 }
 
-.articleTitle {
+#first-illu {
+    margin-top:10rem;
+}
+
+.article_title {
     margin-top: 10rem;
 
 }
 
-.linkSite {
+.link-site {
     text-decoration: none;
     color: sandybrown;
     font-size: 100%;
     transition: 0.5s;
 }
 
-.linkSite:hover {
+.link-site:hover {
     color: #51c44d;
     font-size: 150%;
-
 
 }
 
@@ -172,7 +195,7 @@ section{
     
     }
 
-    .articleTitle {
+    .article-title {
         margin-top: 7rem;
     
     }
