@@ -18,6 +18,7 @@
 </head>
 
 <body>
+  <header>
   <section id="home">
     <div>
       <canvas id="canvas"></canvas>
@@ -36,7 +37,9 @@
       </ul>
     </div>
   </section>
+</header>
 
+<main>
   <div id="navbar">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
       <div class="container-fluid ">
@@ -49,7 +52,7 @@
             <a class="nav-link" href="#home">HOME</a>
             <a class="nav-link" href="#presentation">PRESENTATION</a>
             <a class="nav-link" href="#book">REALISATIONS</a>
-            <a class="nav-link" href="#">CONTACT</a>
+            <a class="nav-link" href="#contact">CONTACT</a>
           </div>
         </div>
       </div>
@@ -60,14 +63,15 @@
     <h1 class="text-center pres">Développeur full stack junior</h1>
 
 
-    <p class="mt-5">Je me présente, je m'appelle Mehdi. J'ai entrepris une reconversion professionnelle en 2020 à
-      l'âge de 28 ans, après mûre réflexion j'ai choisi de devennir développeur Web. En effet, l'informatique me
-      passionne depuis mon plus jeune âge. Je suis donc passé du monde du végétal au monde du numérique, et ca me
-      plaît beaucoup.
+    <p class="mt-5">Je me présente, je m'appelle Mehdi, j'ai 28 ans. Passionné depuis très jeune par l'informatique en
+      général, j'ai entrepris une reconversion professionnelle en 2019, que j'ai effectuée en 2020-2021. J'ai eu l'envie
+      de devenir développeur Web. Je suis donc passé du monde du végétal au monde du numérique, et ca me plaît beaucoup.
       J'ai effectué une formation de développeur Web et Web mobile fullstack de 8 mois auprès d'un organisme reconnu
       suivi d'un stage en agence.
+      Ce qui me plaît par dessus tout dans ce métier c'est que l'on est sans cesse "en mouvement", on ne doit jamais se
+      reposer sur ses acquis et le progrès est quotidien. On en apprends tous les jours et j'adore ca.
 
-      <br /><br />Mes spécialités sont:
+      <br /><br />Voici une liste non exhaustive de mes spécialités:
     </p>
     <div class="row">
       <div id="conc-back-end" class="pres-back col-md-4 offset-md-2 col-12">
@@ -315,13 +319,16 @@
         <img class="col-12 col-xl-6 offset-xl-5" src="/exemples_realisations/deco_tab.png" alt="rendu sur tablette">
       </div>
       <div class="row">
-        <img class="col-12 col-xl-10" src="/exemples_realisations/deco_laptop.png" alt="rendu administration sur laptop">
+        <img class="col-12 col-xl-10" src="/exemples_realisations/deco_laptop.png"
+          alt="rendu administration sur laptop">
       </div>
       <div class="row">
-        <img class="col-12 col-xl-10 offset-xl-1" src="/exemples_realisations/deco_laptop2.png" alt="rendu administration sur laptop">
+        <img class="col-12 col-xl-10 offset-xl-1" src="/exemples_realisations/deco_laptop2.png"
+          alt="rendu administration sur laptop">
       </div>
       <div class="row">
-        <img class="col-12 col-xl-10 offset-xl-2" src="/exemples_realisations/deco_laptop3.png" alt="rendu administration sur laptop">
+        <img class="col-12 col-xl-10 offset-xl-2" src="/exemples_realisations/deco_laptop3.png"
+          alt="rendu administration sur laptop">
       </div>
     </article>
 
@@ -335,48 +342,81 @@
       <p>Outil de présentation de bannières Web animées. </p>
 
       <h3 class="mt-5 mb-4">Specifications techniques :</h3>
-      <p><i class="fas fa-chevron-circle-right"></i> Outil interne permettant à l'agence de présenter les bannières pub aux clients.</p>
-
-      <p><i class="fas fa-chevron-circle-right"></i> BannerStudio facilite également la livraison des bannières finies, de manière sécurisée et facilitée, tout en offrant une présentation sobre et élégante à l'utilisateur.</p>
-      <p><i class="fas fa-chevron-circle-right"></i> Appli web réalisée avec Symfony 5.2.9 / jQuery / SASS / et Gulp 4.</p>
-      <p><i class="fas fa-chevron-circle-right"></i> Les bannières pub sont uploadées par les Admins sous forme de fichiers zip, lesquels sont ensuite associés à une campagne publicitaire, dézippés, associés à un format de bannière (pour adapter l'affichage nottament), puis affichés dynamiquement côté client.</p>
-      <p><i class="fas fa-chevron-circle-right"></i> </p>
+      <p><i class="fas fa-chevron-circle-right"></i> Outil interne permettant à l'agence de présenter les bannières pub
+        aux clients.</p>
+      <p><i class="fas fa-chevron-circle-right"></i> BannerStudio facilite la livraison des bannières finies,
+        de manière sécurisée et facilitée, tout en offrant une présentation sobre et élégante à l'utilisateur.</p>
+      <p><i class="fas fa-chevron-circle-right"></i> Appli web réalisée avec Symfony 5.2.9 / PHP 8 / jQuery / SASS / et
+        Gulp 4.
+      </p>
+      <p><i class="fas fa-chevron-circle-right"></i> Les bannières pub sont uploadées par les Admins sous forme de
+        fichiers zip, lesquels sont ensuite associés à une campagne publicitaire, dézippés, associés à un format de
+        bannière (pour adapter l'affichage notamment), puis affichés dynamiquement côté client.</p>
+      <p><i class="fas fa-chevron-circle-right"></i> L'application est développée desktop-first car la plupart des
+        clients vont la consulter depuis un ordinateur, cependant, elle est responsive et s'adapte à un support de type
+        smartphone ou tablette.</p>
+      <p><i class="fas fa-chevron-circle-right"></i> L'utilisateur a la possibilité de faire une récupération de mot de
+        passe en cas d'oubli. Il a également accès à une page profil où il peut modifier son Nom / Prénom / mot de
+        passe.</p>
 
       <h3 class="mt-5 mb-4">Compétences couvertes par l'application:</h3>
+      <p><i class="fas fa-chevron-circle-right"></i> Modélisation de base de données / schéma fonctionnel de
+        l'application et diagramme de classes.</p>
+
       <p><i class="fas fa-chevron-circle-right"></i> Créer une base de données MySql.</p>
-      <p><i class="fas fa-chevron-circle-right"></i> Développer les composants d'accès aux données (CRUD) avec PHP POO
-        architecture MVC.</p>
+      <p><i class="fas fa-chevron-circle-right"></i> Développer les composants d'accès aux données (CRUD) avec Symfony 5
+        (campagne / utilisateurs et leur statut / formats de bannières).</p>
       <p><i class="fas fa-chevron-circle-right"></i> Développer la partie back-end d'une application Web en respectant
-        les recommandations de sécurité.</p>
-      <p><i class="fas fa-chevron-circle-right"></i> Développer les composants de gestion des stocks.</p>
-      <p><i class="fas fa-chevron-circle-right"></i> Intégrer une API de paiement (ici Stripe).</p>
-      <p><i class="fas fa-chevron-circle-right"></i> Utiliser et paramétrer PHP mailer (mail remerciement/récapitulatif
-        d'achat).</p>
-      <p><i class="fas fa-chevron-circle-right"></i> Rendre l'interface responsive.</p>
+        les recommandations de sécurité et les recommandations/outils Symfony.</p>
+      <p><i class="fas fa-chevron-circle-right"></i> Développer le composant d'upload de fichiers.</p>
+      <p><i class="fas fa-chevron-circle-right"></i> Développer le rendu côté client / le téléchargement des fichiers
+        par le client.</p>
+      <p><i class="fas fa-chevron-circle-right mb-4"></i> Rendre l'interface dynamique et responsive.</p>
 
-
+      <h3 class="article-title text-center">Partie front-office</h3>
       <div class="row mt-5">
-        <img class="col-12 col-xl-8 offset-xl-2" src="/exemples_realisations/deco_desk.png" alt="rendu sur ordinateur">
+        <img class="col-12 col-xl-8 offset-xl-2" src="/exemples_realisations/bannerstudio_desk.png"
+          alt="rendu sur ordinateur">
+      </div>
+      <div class="row mt-5">
+        <img class="col-12 col-xl-8 offset-xl-2" src="/exemples_realisations/bannerstudio_desk2.png"
+          alt="rendu sur ordinateur">
+      </div>
+
+      <h3 class="article-title text-center">Partie back-office</h3>
+      <div class="row mt-5">
+        <img class="col-10 offset-1 col-xl-10 offset-xl-1" src="/exemples_realisations/bannerstudio_laptop.png"
+          alt="rendu sur laptop">
+      </div>
+      <div class="row mt-5">
+        <img class="col-12 col-xl-12" src="/exemples_realisations/bannerstudio_laptop2.png"
+          alt="rendu administration sur laptop">
       </div>
       <div class="row">
-        <img class="col-10 offset-1 col-xl-4 offset-xl-1" src="/exemples_realisations/deco_smart.png"
-          alt="rendu sur smartphone">
+        <img class="col-12 col-xl-12" src="/exemples_realisations/bannerstudio_laptop3.png"
+          alt="rendu administration sur laptop">
       </div>
       <div class="row">
-        <img class="col-12 col-xl-6 offset-xl-5" src="/exemples_realisations/deco_tab.png" alt="rendu sur tablette">
-      </div>
-      <div class="row">
-        <img class="col-12 col-xl-10" src="/exemples_realisations/deco_laptop.png" alt="rendu administration sur laptop">
-      </div>
-      <div class="row">
-        <img class="col-12 col-xl-10 offset-xl-1" src="/exemples_realisations/deco_laptop2.png" alt="rendu administration sur laptop">
-      </div>
-      <div class="row">
-        <img class="col-12 col-xl-10 offset-xl-2" src="/exemples_realisations/deco_laptop3.png" alt="rendu administration sur laptop">
+        <img class="col-12 col-xl-6 offset-xl-3" src="/exemples_realisations/bannerstudio_smart2.png"
+          alt="rendu administration sur laptop">
       </div>
     </article>
-
   </section>
+
+  <div id="separator"></div>
+  <section id="contact">
+    <h1 class="text-center">Contact</h1>
+    <div class="row map-content">
+    <iframe class="map col-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38107.80572062434!2d-0.5830546277047877!3d44.773065796127895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd552132d74e7485%3A0x40665174816cf60!2s33140%20Villenave-d&#39;Ornon!5e0!3m2!1sfr!2sfr!4v1628090517084!5m2!1sfr!2sfr" width="80%" height="450px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+    <a class="link-mail text-center" href="mailto:mehdi.memmi@laposte.net"><i class="fas fa-envelope"></i></a>
+  </section>
+</main>
+<footer>
+  <div class="text-center">Copyright &copy; Mehdi Memmi 2021</div>
+</footer>
+
+  
 
   <!-- my scripts -->
 

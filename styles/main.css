@@ -2,7 +2,9 @@
 
 section{
     background-color: rgb(12,12,12);
+    color: rgb(215, 215, 215);
     font-family: 'Open Sans', sans-serif;
+    
     
 }
 
@@ -27,6 +29,14 @@ section{
     border: 1px solid white;
     background-color:white;
     border-radius: 50%;
+    transition: 1s;
+}
+
+.logo-medias:hover {
+    width: 80px;
+    height: 80px;
+    background-color:#51c44d;
+
 }
 
 /* /////////////////////////////////////////////////////////// */
@@ -55,7 +65,6 @@ section{
 /* Presentation section */
 
 #presentation {
-    color: rgb(215, 215, 215);
     padding: 10rem;
 
 }
@@ -147,8 +156,48 @@ section{
 
 }
 
+/* //////////////////////////////////////////////////////////// */
+/* Contact section */
 
+#contact {
+    color: rgb(215, 215, 215);
+    padding: 5rem;
 
+}
+
+.map-content {
+    padding-top: 8%;
+}
+
+.map {
+    border-radius: 3rem;
+}
+
+.link-mail {
+    display: block;
+    margin-top:3rem;
+    margin-right:auto;
+    margin-left: auto;
+    text-decoration: none;
+    color: sandybrown;
+    font-size: 200%;
+    transition: 2s;
+}
+
+.link-mail:hover {
+    color: #51c44d;
+    font-size: 700%;
+
+}
+
+/* //////////////////////////////////////////////////////////// */
+/* Footer section */
+
+footer {
+    background-color: rgb(12,12,12);
+    color: rgb(215, 215, 215);
+    font-family: 'Open Sans', sans-serif;
+}
 
 
  /* ------------------------------------------------------------------------ */
