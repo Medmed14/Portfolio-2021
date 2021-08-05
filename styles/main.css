@@ -1,11 +1,9 @@
 /* main page body */
 
-section{
-    background-color: rgb(12,12,12);
+section {
+    background-color: rgb(12, 12, 12);
     color: rgb(215, 215, 215);
-    font-family: 'Open Sans', sans-serif;
-    
-    
+    font-family: "Open Sans", sans-serif;
 }
 
 /* /////////////////////////////////////////////////////////// */
@@ -27,7 +25,7 @@ section{
     height: 60px;
     margin-bottom: 3rem;
     border: 1px solid white;
-    background-color:white;
+    background-color: white;
     border-radius: 50%;
     transition: 1s;
 }
@@ -35,8 +33,7 @@ section{
 .logo-medias:hover {
     width: 80px;
     height: 80px;
-    background-color:#51c44d;
-
+    background-color: #51c44d;
 }
 
 /* /////////////////////////////////////////////////////////// */
@@ -44,14 +41,13 @@ section{
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
-  position: fixed;
-  top: 16px;
-  width: 100%;
+    position: fixed;
+    top: 16px;
+    width: 100%;
 }
 
 .navbar {
     margin-top: -1rem;
-  
 }
 
 .navbar-toggler {
@@ -66,7 +62,6 @@ section{
 
 #presentation {
     padding: 10rem;
-
 }
 
 #cv {
@@ -77,16 +72,16 @@ section{
 }
 
 #cv:hover {
-    background-color: rgb(215,215,215);
-    color:black;
+    background-color: rgb(215, 215, 215);
+    color: black;
 }
 
-.list-comp{
+.list-comp {
     list-style: none;
 }
 
-.list-comp li{
-    margin-bottom:0.7rem;
+.list-comp li {
+    margin-bottom: 0.7rem;
 }
 
 #illustration-morph {
@@ -94,21 +89,19 @@ section{
 }
 
 /* separation line */
-#separator {
-
-    background-color: rgb(215,215,215);
+.separator {
+    background-color: rgb(215, 215, 215);
     height: 0.5rem;
     width: 100%;
-  }
+}
 
-  #separator-articles {
-
-    background-color: rgb(215,215,215);
+.separator-articles {
+    background-color: rgb(215, 215, 215);
     margin-top: 5rem;
     margin-bottom: 5rem;
     height: 0.3rem;
     width: 100%;
-  }
+}
 
 /* //////////////////////////////////////////////////////////// */
 /* Book section */
@@ -117,11 +110,10 @@ section{
     margin-top: 3rem;
     text-decoration: underline;
     text-underline-offset: 1rem;
-    
 }
 
 .title-section {
-    margin-top:1rem;
+    margin-top: 1rem;
     text-align: center;
 }
 
@@ -131,16 +123,14 @@ section{
     padding-right: 10rem;
     padding-bottom: 10rem;
     padding-left: 10rem;
-
 }
 
 #first-illu {
-    margin-top:10rem;
+    margin-top: 10rem;
 }
 
 .article-title {
     margin-top: 8rem;
-
 }
 
 .link-site {
@@ -153,7 +143,6 @@ section{
 .link-site:hover {
     color: #51c44d;
     font-size: 150%;
-
 }
 
 /* //////////////////////////////////////////////////////////// */
@@ -162,7 +151,6 @@ section{
 #contact {
     color: rgb(215, 215, 215);
     padding: 5rem;
-
 }
 
 .map-content {
@@ -175,8 +163,8 @@ section{
 
 .link-mail {
     display: block;
-    margin-top:3rem;
-    margin-right:auto;
+    margin-top: 3rem;
+    margin-right: auto;
     margin-left: auto;
     text-decoration: none;
     color: sandybrown;
@@ -187,25 +175,21 @@ section{
 .link-mail:hover {
     color: #51c44d;
     font-size: 700%;
-
 }
 
 /* //////////////////////////////////////////////////////////// */
 /* Footer section */
 
 footer {
-    background-color: rgb(12,12,12);
+    background-color: rgb(12, 12, 12);
     color: rgb(215, 215, 215);
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
-
- /* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
 /* RESPONSIVE */
 
 @media screen and (max-width: 768px) {
-
-
     .medias {
         list-style-type: none;
         position: absolute;
@@ -222,7 +206,7 @@ footer {
         height: 40px;
         margin-right: 1rem;
         border: 1px solid white;
-        background-color:white;
+        background-color: white;
         border-radius: 50%;
         display: flex;
         justify-content: center;
@@ -230,9 +214,7 @@ footer {
     }
 
     #presentation {
-        
         padding: 5rem;
-    
     }
 
     #book {
@@ -240,13 +222,9 @@ footer {
         padding-top: 3rem;
         padding-right: 3rem;
         padding-left: 3rem;
-    
     }
 
     .article-title {
         margin-top: 7rem;
-    
     }
-
-
 }
