@@ -6,8 +6,7 @@ section {
     font-family: "Open Sans", sans-serif;
 }
 
-/* /////////////////////////////////////////////////////////// */
-/* image home */
+/* ////////////////////////////image home/////////////////////////////// */
 
 .medias {
     list-style-type: none;
@@ -17,7 +16,7 @@ section {
     align-items: center;
     flex-direction: column;
     right: 3.3%;
-    top: 21%;
+    top: 25%;
 }
 
 .logo-medias {
@@ -36,8 +35,7 @@ section {
     background-color: #51c44d;
 }
 
-/* /////////////////////////////////////////////////////////// */
-/* Style navbar */
+/* //////////////////////////Style navbar///////////////////////////////// */
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
@@ -46,8 +44,10 @@ section {
     width: 100%;
 }
 
-.navbar {
+#navbar {
+    width: 100%;
     margin-top: -1rem;
+    z-index: 15;
 }
 
 .navbar-toggler {
@@ -57,8 +57,9 @@ section {
 .navbar-nav {
     margin-left: 2rem;
 }
-/* //////////////////////////////////////////////////////////// */
-/* Presentation section */
+
+/* ////////////////////////////Presentation section//////////////////////////////// */
+
 
 #presentation {
     padding: 10rem;
@@ -86,6 +87,7 @@ section {
 
 #illustration-morph {
     border-radius: 3rem;
+    width: 100%;
 }
 
 /* separation line */
@@ -103,10 +105,9 @@ section {
     width: 100%;
 }
 
-/* //////////////////////////////////////////////////////////// */
-/* Book section */
+/* ///////////////////////////Book section///////////////////////////////// */
 
-#title-book {
+.title-book {
     margin-top: 3rem;
     text-decoration: underline;
     text-underline-offset: 1rem;
@@ -145,8 +146,8 @@ section {
     font-size: 150%;
 }
 
-/* //////////////////////////////////////////////////////////// */
-/* Contact section */
+/* //////////////////////////Contact section////////////////////////////////// */
+
 
 #contact {
     color: rgb(215, 215, 215);
@@ -177,8 +178,8 @@ section {
     font-size: 700%;
 }
 
-/* //////////////////////////////////////////////////////////// */
-/* Footer section */
+/* ///////////////////////////Footer section///////////////////////////////// */
+
 
 footer {
     background-color: rgb(12, 12, 12);
@@ -186,8 +187,8 @@ footer {
     font-family: "Open Sans", sans-serif;
 }
 
-/* ------------------------------------------------------------------------ */
-/* RESPONSIVE */
+/* --------------------------------RESPONSIVE---------------------------------------- */
+
 
 @media screen and (max-width: 768px) {
     .medias {
@@ -198,7 +199,7 @@ footer {
         align-items: center;
         flex-direction: row;
         right: 3.3%;
-        top: 80%;
+        top: 75%;
     }
 
     .logo-medias {
