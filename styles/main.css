@@ -214,15 +214,21 @@ footer {
         align-items: center;
     }
 
+    .title-book {
+        margin-top: 2.5rem;
+        text-decoration: underline;
+        text-underline-offset: 0.2rem;
+    }
+
     #presentation {
-        padding: 5rem;
+        padding: 2rem;
     }
 
     #book {
         color: rgb(215, 215, 215);
         padding-top: 3rem;
-        padding-right: 3rem;
-        padding-left: 3rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
     }
 
     .article-title {

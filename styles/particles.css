@@ -87,3 +87,14 @@ canvas {
     opacity: 0;
   }
 }
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+
+  .logo-acc {
+    width: 18rem;
+  }
+
+}
